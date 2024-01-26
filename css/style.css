@@ -1,0 +1,348 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cuerpo1 {
+    background-image: url("../imagenes/Fondo\ inicio\ 2.jpg");
+    background-repeat: no-repeat;
+    background-position:center center;
+    background-size: cover;   
+    width: 100%;    
+}
+.header1 {
+    width: 100%;  
+    height: 100vh;    
+    display: grid;
+    grid-template-areas: 
+    ". productos historia locales contacto ."
+    ". . . . . ."
+    ". . . . . ."
+    ". . . . . ."
+    ". . . . . ."
+    ". . . . . ."
+    ". . . . . ."
+    ". . . . . ."
+    ". . . . . ."
+    ". . . . . ."
+    ". . . . . ."
+    ". . . . . ."
+    ". . . . . ."
+    ". . . . . ."
+    ". . . . . ."
+    ". . . . . ."
+    ". . . . . ."
+    ". . . . . .";
+    justify-items: center;
+    align-items: center;
+}
+
+.Menu {
+    color: black;
+    grid-area: menu;
+    font-size: 2.5rem;
+    background-color: white;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    
+}
+.Productos {    
+    color: white;
+    grid-area: productos;
+    font-size: 1.5rem;
+    background-color: black;
+    padding: 0.5rem;
+    border-radius: 1rem;
+
+}
+.Historia {
+    color: white;
+    grid-area: historia;
+    font-size: 1.5rem;
+    background-color: black;
+    padding: 0.5rem;
+    border-radius: 1rem;
+
+}
+
+.Locales {
+    color: white;
+    grid-area: locales;
+    font-size: 1.5rem;
+    background-color: black;
+    padding: 0.5rem;
+    border-radius: 1rem;
+
+}
+.Contacto {
+    color: white;
+    grid-area: contacto;
+    font-size: 1.5rem;
+    background-color: black;
+    padding: 0.5rem;
+    border-radius: 1rem;
+
+}
+
+.footer {
+    padding: 1rem;
+}
+
+/*Productos*/
+
+.header2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0d42a379;
+    padding: 1rem;
+}
+
+.logo {
+       width: 20rem;
+
+}
+
+.menu1 {
+    display: flex;
+    list-style-type: none;
+    gap: 1rem;
+}
+
+.menu-item {
+    color: white;
+    font-size: 1rem;
+    background-color: black;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+
+.tarjetas {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    padding: 2rem;
+    gap: 1rem;
+    padding-inline: 5rem;
+    margin: auto;
+    background-color: pink;
+
+   
+}
+
+.tarjeta {
+    background-color: #ca18c179;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.tarjeta-title {
+    color: blue;
+    width: 10rem;
+}
+
+.tarjeta-btn {
+    color: blue;
+}
+
+/*locales*/
+
+.direcciones {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr ;
+    padding: 2rem;
+    gap: 3rem;
+    padding-inline: 5rem;
+    margin: auto;
+    background-color: pink;  
+}
+
+.direccion {
+    background-color: #ca18c179;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.direccion-title {
+    color: blue;
+    width: 10rem;
+}
+
+.direccion-btn {
+    color: blue;
+}
+
+
+/*contacto*/
+
+.Nombre {
+    margin-top: 7rem;
+    font-size: medium;
+    margin-bottom: 0;
+    font-weight: 1;
+}
+.Apellido {
+    font-weight: 1;
+    margin-top: 2rem;
+    font-size: medium;
+    margin-bottom: 0;
+}
+.Mensaje {
+    font-weight: 1;
+    margin-top: 2rem;
+    font-size: medium;
+    margin-bottom: 0;
+}
+.Barra {
+    color: white;
+    margin-top: 0;
+    background-color: white;
+    border: solid gray;
+    width: 30rem;
+}
+.Barra1 {
+    color: white;
+    margin-top: 0;
+    background-color: white;
+    border: solid gray;
+    width: 30rem;
+    height: 5rem;
+}
+.Enviar {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    margin-left: 5rem;
+    border: 2px solid gray;
+    width: 5rem;
+    background-color: white;
+}
+
+/*nosotros*/
+
+.Nosotros1{
+    background-color:pink ;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.cuento {
+    margin-top: 3rem;
+    text-align: center;
+    font-size: 2rem;
+}
+.historia {
+    font-size: 1.5rem;
+    font-style:italic;
+    margin-top: 3rem;
+    margin-bottom: 5px;
+}
+p {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 16px;
+}
+
+/*pie de pagina*/
+
+.fin {
+    width: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;       
+         
+}
+
+.pie1 {        
+    background-color: #0d42a379;
+    padding: 1rem;
+}
+
+@media (max-width: 1000px) {
+    .texto-p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 900px) {
+    .tarjetas {
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media (max-width: 700px) {
+    .logo {
+        width: 15rem;
+    }
+    .texto-p {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 700px) {
+     .menu1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-areas: 
+        ". menu1 ."
+        ". historia1 ."
+        ". locales1 ."
+        ". contacto1 .";
+        margin-right: 3rem ;
+    }
+    .inicio1 {
+        grid-area: menu1;
+    }
+    .historia1 {
+        grid-area: historia1;
+    }
+    .locales1 {
+        grid-area: locales1;
+    }
+    .contacto1 {
+        grid-area: contacto1;
+    }
+}
+
+@media (max-widht: 500px) {
+    .menu1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-areas: 
+        ". . . "
+        ". . ."
+        ". . ."
+        "menu1 histori1 locales1 contacto1 .";       
+    }
+    .inicio1 {
+        grid-area: menu1;
+    }
+    .historia1 {
+        grid-area: historia1;
+    }
+    .locales1 {
+        grid-area: locales1;
+    }
+    .contacto1 {
+        grid-area: contacto1;
+    }
+}
+
+@media (max-width: 500px) {
+    .tarjetas {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;    
+    }
+    .logo {
+        width: 12rem;
+    }
+    .texto-p {
+        font-size: 10px;
+    }
+}
+
+
+

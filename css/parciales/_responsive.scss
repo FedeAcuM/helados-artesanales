@@ -1,0 +1,87 @@
+
+
+@media (max-width: 1000px) {
+    .texto-p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 900px) {
+    .tarjetas {
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media (max-width: 700px) {
+    .logo {
+        width: 15rem;
+    }
+    .texto-p {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 700px) {
+     .menu1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-areas: 
+        ". menu1 ."
+        ". historia1 ."
+        ". locales1 ."
+        ". contacto1 .";
+        margin-right: 3rem ;
+    }
+    .inicio1 {
+        grid-area: menu1;
+    }
+    .historia1 {
+        grid-area: historia1;
+    }
+    .locales1 {
+        grid-area: locales1;
+    }
+    .contacto1 {
+        grid-area: contacto1;
+    }
+}
+
+@media (max-widht: 500px) {
+    .menu1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-areas: 
+        ". menu1 ."
+        ". historia1 ."
+        ". locales1 ."
+        ". contacto1 .";
+    }
+    .inicio1 {
+        grid-area: menu1;
+    }
+    .historia1 {
+        grid-area: historia1;
+    }
+    .locales1 {
+        grid-area: locales1;
+    }
+    .contacto1 {
+        grid-area: contacto1;
+    }
+}
+
+@media (max-width: 500px) {
+    .tarjetas {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;    
+    }
+    .logo {
+        width: 12rem;
+    }
+    .texto-p {
+        font-size: 10px;
+    }
+}
