@@ -1,24 +1,25 @@
 
 
 
-.direcciones {
-    display: grid;
-    grid-template-columns: 1fr 1fr ;
-    grid-template-rows: 1fr 1fr ;
-    padding: 2rem;
-    gap: 3rem;
-    padding-inline: 5rem;
-    margin: auto;
-    background-image: linear-gradient(to bottom, #0d42a379, pink, #0d42a379);
+    .direcciones {
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 1fr 1fr ;
+        padding: 2rem;
+        gap: 3rem;
+        padding-inline: 5rem;
+        margin: auto;
+        background-image: linear-gradient(to bottom, #0d42a379, pink, #0d42a379);
 
     .direccion {
         background-color: #ca18c179;
         padding: 1rem;
         border-radius: 1rem;
 
-        .direccion-title {
-            color: blue;
-            width: 10rem;
+            .direccion-title {
+                color: blue;
+                width: 10rem;
+            }
         }
     }
-}
+
