@@ -1,4 +1,18 @@
 
+@media (min-width: 1450px) {
+    .Nosotros1 {
+        .cuento {
+            font-size: 7rem;
+        }
+        .historia{
+            font-size: 5rem;
+        }
+        .texto1 {
+            font-size: 2rem;
+        }
+    }
+}
+
 
 @media (max-width: 1000px) {
     .texto-p {
@@ -14,26 +28,36 @@
 }
 
 @media (max-width: 700px) {
-    .logo {
-        width: 15rem;
+    .header2 {
+        .logo {
+            width: 8rem;
+        }
     }
+
+        
     .texto-p {
         font-size: 12px;
     }
 }
 
+
 @media (max-width: 700px) {
-     .menu1 {
+     .header2 {
+        .nav {
+            .menu1 {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr ;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
         grid-template-areas: 
         ". menu1 ."
         ". historia1 ."
         ". locales1 ."
         ". contacto1 .";
-        margin-right: 3rem ;
+        margin-right: 2rem;
+        }
     }
+    }
+    
     .inicio1 {
         grid-area: menu1;
     }
@@ -46,19 +70,39 @@
     .contacto1 {
         grid-area: contacto1;
     }
+
+    .puntos {
+        .direcciones{
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr;
+        }
+    }
 }
 
+
 @media (max-widht: 500px) {
-    .menu1 {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
-        grid-template-areas: 
-        ". menu1 ."
-        ". historia1 ."
-        ". locales1 ."
-        ". contacto1 .";
+    .cuerpo1 {
+        .header1 {
+            font-size: 10px;
+        }
     }
+
+
+
+    .header2 {
+        .nav {
+            .menu1 {
+                .menu-item {
+                font-size: 10px;   
+                }     
+            }
+        }
+               
+    }
+
+
+
+
     .inicio1 {
         grid-area: menu1;
     }
